@@ -48,12 +48,8 @@ A deep learning-based attendance system that uses facial recognition to identify
 
 To train and evaluate the models, open and run the following Jupyter notebooks:
 
-1. `src/Final 15min Model.ipynb`  
-2. `src/Final 1hr Model.ipynb`  
-3. `src/Final Short term and long term XGBoost model.ipynb`  
-4. `src/Lasso_Regression_Model (2).ipynb`  
-5. `src/codeFinal.ipynb`  
-
+1. `src/Untitled68 (1).ipynb`  
+  
 **Instructions:**
 - Open each notebook using Jupyter Notebook or JupyterLab.
 - Run all cells by clicking **"Run All"** or manually running them one by one.
