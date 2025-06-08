@@ -1,4 +1,4 @@
-# Weather-Driven Solar Energy Forecasting
+# face-attendence system
 
 A deep learning-based attendance system that uses facial recognition to identify students. Built with TensorFlow and MobileNetV2, this project automates the attendance process by recognizing student faces from images. It compares different deep learning approaches, including custom CNN and transfer learning, to determine the most effective model for this task.
 
