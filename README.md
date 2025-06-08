@@ -27,35 +27,10 @@ A deep learning-based attendance system that uses facial recognition to identify
 
 ---
 
-## Machine Learning Models Used
-
-| Model              | Type           | Purpose                             |
-|-------------------|----------------|-------------------------------------|
-| Lasso Regression  | Linear         | Baseline model, simple & interpretable |
-| Random Forest      | Ensemble Trees | Good for handling non-linear data   |
-| XGBoost            | Boosted Trees  | High performance with tuning        |
-| LSTM               | Deep Learning  | Excellent for time-series forecasting|
-
----
-
-## Technologies Used
-
-- **Python**
-- **Pandas, NumPy, Scikit-learn**
-- **TensorFlow, Keras**
-- **XGBoost**
-- **Matplotlib, Seaborn**
-- **Google Colab & VS Code**
-- **Power BI & R Studio** (for visualization and statistics)
-- **Streamlit** (for model deployment)
-
----
-
 ## Folder Structure
 
 - `report/`: Final project report (Word document)  
 - `src/`: Source code for model training and architecture  
-- `saved_models/`: Trained `.h5` model files  
 - `results/`: Training accuracy/loss graphs and performance plots  
 - `requirements.txt`: List of Python packages needed  
 - `.gitignore`: Files ignored by Git (e.g., `__pycache__`, temp files)  
@@ -64,15 +39,25 @@ A deep learning-based attendance system that uses facial recognition to identify
 
 ---
 
-
 ## 🚀 How to Run
-
-1. **Install the required libraries**:
-
-   ```bash
+### 1. Install the required librarie
+  ``` bash
    pip install -r requirements.txt
+```
+### 2. Run the Models (Optional)
 
+To train and evaluate the models, open and run the following Jupyter notebooks:
 
+1. `src/Final 15min Model.ipynb`  
+2. `src/Final 1hr Model.ipynb`  
+3. `src/Final Short term and long term XGBoost model.ipynb`  
+4. `src/Lasso_Regression_Model (2).ipynb`  
+5. `src/codeFinal.ipynb`  
+
+**Instructions:**
+- Open each notebook using Jupyter Notebook or JupyterLab.
+- Run all cells by clicking **"Run All"** or manually running them one by one.
+- Each notebook contains code to load data, train models, and display results.
 
 ## 📊 Results
 
@@ -114,8 +99,7 @@ See the [LICENSE](LICENSE) file for full details.
 
 ## 👨‍🎓 Author
 
-- **Name:** TM Kahavidhana  
-- **Index Number:** D/DBA/22/0017  
+- **Name:** TM Kahavidhana   
 - **University:** General Sir John Kotelawala Defence University  
 - **Degree Program:** B.Sc. (Hons) in Data Science and Business Analytics  
 - **Course:** CS 4132 - Image Processing & Computer Vision  
