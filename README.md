@@ -70,7 +70,9 @@ To develop an advanced deep learning–based face recognition system that can ac
 
 To train and evaluate the models, open and run the following Jupyter notebooks:
 
-1. `src/Untitled68 (1).ipynb`  
+1. `custom_cnn_(model_1)_.py`
+2. `custom_cnn_(model_1)_.py`
+3. `custom_cnn_(model_1)_.py`
   
 **Instructions:**
 - Open each notebook using Jupyter Notebook or JupyterLab.
