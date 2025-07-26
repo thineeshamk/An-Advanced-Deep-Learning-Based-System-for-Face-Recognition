@@ -78,11 +78,23 @@ To train and evaluate the models, open and run the following Jupyter notebooks:
 - Open each python files using Jupyter Notebook or JupyterLab.
 - Each notebook contains code to load data, train models, and display results.
 
-### 2. Run the Real-Time Attendance System (Optional)
-To test the real-time facial recognition attendance system using your webcam:
-1. `custom_cnn_(model_1)_.py`
+### 3. Run the Real-Time Attendance System (Optional)
 
-## 📊 Results
+To test the real-time facial recognition attendance system using your webcam:
+1. `attendance_system_.py`
+
+**Instructions:**
+- Ensure you have a webcam connected and the best-performing trained model saved.
+- Open and run the script using any Python IDE or terminal
+- The script will:
+  - Detect faces from the webcam in real-time
+  - Predict identities using the trained model
+  - Display names and confidence scores on the screen
+  - Automatically log attendance to a CSV file
+
+Note: Press q to stop the webcam stream and save the attendance log.
+
+## Results
 
 | Model                                | Training Accuracy | Validation Accuracy |
 |-------------------------------------|-------------------|---------------------|
