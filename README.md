@@ -75,9 +75,12 @@ To train and evaluate the models, open and run the following Jupyter notebooks:
 3. `mobilenetv2_+_fine_tuned_(model_3).py`
   
 **Instructions:**
-- Open each notebook using Jupyter Notebook or JupyterLab.
-- Run all cells by clicking **"Run All"** or manually running them one by one.
+- Open each python files using Jupyter Notebook or JupyterLab.
 - Each notebook contains code to load data, train models, and display results.
+
+### 2. Run the Real-Time Attendance System (Optional)
+To test the real-time facial recognition attendance system using your webcam:
+1. `custom_cnn_(model_1)_.py`
 
 ## 📊 Results
 
