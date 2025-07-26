@@ -85,18 +85,18 @@ To train and evaluate the models, open and run the following Jupyter notebooks:
 | MobileNetV2 (Frozen Base - Model 2) | 63%               | 65%                 |
 | MobileNetV2 + Fine-Tuned (Model 3)  | 76%               | 75%                 |
 
-✅ **Best performing model:** MobileNetV2 + Fine-Tuned Custom Layers  
-🧠 The model achieved excellent generalization despite limited training data.
+**Best performing model:** MobileNetV2 + Fine-Tuned Custom Layers  
+The model achieved excellent generalization despite limited training data.
 
 ---
 
-## 📌 Limitations
+## Limitations
 
 - Dataset includes only 10 students (100 images total, Small Dataset).
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - Liveness detection to prevent spoofing (e.g., printed photos)
 - Mobile or Raspberry Pi deployment
@@ -105,14 +105,14 @@ To train and evaluate the models, open and run the following Jupyter notebooks:
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the **MIT License**.  
 See the [LICENSE](LICENSE) file for full details.
 
 ---
 
-## 👨‍🎓 Author
+## Author
 
 - **Name:** TM Kahavidhana   
 - **University:** General Sir John Kotelawala Defence University  
