@@ -1,4 +1,4 @@
-# face-attendence system
+# An Advanced Deep Learning-Based System for Face Recognition
 
 A deep learning-based attendance system that uses facial recognition to identify students. Built with TensorFlow and MobileNetV2, this project automates the attendance process by recognizing student faces from images. It compares different deep learning approaches, including custom CNN and transfer learning, to determine the most effective model for this task.
 
@@ -14,7 +14,23 @@ A deep learning-based attendance system that uses facial recognition to identify
 - Use data augmentation and preprocessing to improve model performance.
 - Evaluate results using accuracy and loss metrics.
 - Prepare the system for future real-time deployment using cameras or mobile devices.
-
+- Design and develop a deep learning-based face recognition system for student identification and automated attendance marking.
+- Collect and build a custom face dataset consisting of facial images from 10 individual students under various lighting conditions, angles, and expressions to simulate real-world scenarios.
+Perform data preprocessing and augmentation, including:
+Face detection and alignment
+Resizing and normalization
+Rotation, flipping, brightness variation
+to enhance generalization and model robustness.
+Explore and compare multiple deep learning architectures for facial recognition:
+A custom Convolutional Neural Network (CNN) built from scratch
+MobileNetV2 with frozen pretrained layers (feature extractor)
+MobileNetV2 with fine-tuned custom convolutional layers
+Train and evaluate the models using training/validation/testing splits, and analyze performance based on:
+Accuracy
+Loss
+Confusion matrix
+Model size and inference time (if real-time deployment is intended)
+Optimize model performance through hyperparameter tuning (e.g., learning rate, batch size, dropout) and regularization techniques.
 ---
 
 ## Tools & Technologies
@@ -44,6 +60,7 @@ A deep learning-based attendance system that uses facial recognition to identify
   ``` bash
    pip install -r requirements.txt
 ```
+
 ### 2. Run the Models (Optional)
 
 To train and evaluate the models, open and run the following Jupyter notebooks:
@@ -70,15 +87,12 @@ To train and evaluate the models, open and run the following Jupyter notebooks:
 
 ## 📌 Limitations
 
-- Dataset includes only 10 students (100 images total).
-- The system currently works only on uploaded images (not real-time).
-- No database or attendance log integration yet.
+- Dataset includes only 10 students (100 images total, Small Dataset).
 
 ---
 
 ## 🔮 Future Improvements
 
-- Real-time webcam integration
 - Liveness detection to prevent spoofing (e.g., printed photos)
 - Mobile or Raspberry Pi deployment
 - Integration with institutional attendance systems
