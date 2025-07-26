@@ -72,7 +72,7 @@ To train and evaluate the models, open and run the following Jupyter notebooks:
 
 1. `custom_cnn_(model_1)_.py`
 2. `mobilenetv2_(frozen_base_model_2).py`
-3. `custom_cnn_(model_1)_.py`
+3. `mobilenetv2_+_fine_tuned_(model_3).py`
   
 **Instructions:**
 - Open each notebook using Jupyter Notebook or JupyterLab.
