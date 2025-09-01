@@ -129,7 +129,7 @@ See the [LICENSE](LICENSE) file for full details.
 
 ---
 
-## Author
+## Author Details
 
 - **Name:** TM Kahavidhana   
 - **University:** General Sir John Kotelawala Defence University  
