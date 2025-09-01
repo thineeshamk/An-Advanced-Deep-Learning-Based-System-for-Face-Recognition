@@ -1,6 +1,6 @@
 # An Advanced Deep Learning-Based System for Face Recognition
 
-A deep learning-based attendance system that uses facial recognition to identify students. Built with TensorFlow and MobileNetV2, this project automates the attendance process by recognizing student faces from images. It compares different deep learning approaches, including custom CNN and transfer learning, to determine the most effective model for this task.
+A deep learning-based attendance system that uses facial recognition to identify students. Built with TensorFlow and MobileNetV2, this project automates the attendance process by recognizing student faces from images. It compares different deep learning approaches, including custom CNN and transfer learning, to determine the most effective model for this task. 
 
 ---
 
@@ -41,7 +41,7 @@ To develop an advanced deep learning–based face recognition system that can ac
 ## Tools & Technologies
 
 - **Language:** Python  
-- **Libraries:** TensorFlow/Keras, OpenCV, NumPy, Matplotlib, Pandas  
+- **Libraries:** TensorFlow, Keras, OpenCV, NumPy, Matplotlib, Pandas  
 - **Framework:** Jupyter Notebook  
 - **Model Architectures:** CNN, MobileNetV2 (Transfer Learning)  
 - **Dataset:** 100 manually cropped images of 10 students (10 images each)
